@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(61, 4, 77);
+}
+
+#main {
+  background-color: rgb(120, 31, 164);
+  width: 500px;
+  margin: 5% auto;
+  border-radius: 1.25em;
+  padding: 20px 0px;
+}
+#main #img-container {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+}
+#main #section-button {
+  margin: 0px auto;
+  width: 300px;
+}
+#main #button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+#main #button-container #random {
+  padding: 40px 80px;
+  border-radius: 1.25em;
+  border: 1px solid rgb(107, 0, 107);
+  cursor: pointer;
+  font-size: 1.5em;
+  color: white;
+  background-image: linear-gradient(to bottom, rgb(176, 6, 176), rgb(174, 5, 174), purple);
+  text-shadow: 1px 1px 1px black;
+}
+#main #button-container #random:hover {
+  background-image: linear-gradient(to bottom, purple, rgb(174, 5, 174), rgb(176, 6, 176));
+}
+#main #button-container #random:active {
+  position: relative;
+  top: 2px;
+}
+#main #res {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+#main #res-container {
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+#main #img {
+  width: 100%;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 425px) {
+  #main {
+    width: 300px;
+  }
+  #main #img-container {
+    width: 200px;
+  }
+  #main #section-button {
+    width: 200px;
+  }
+  #main #section-button #button-container #random {
+    padding: 30px 60px;
+  }
+}/*# sourceMappingURL=import.css.map */

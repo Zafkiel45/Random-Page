@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(61, 4, 77);
+}
+
+//===================================================================================================================
+// Mixin 
+
+$mobile-1: 425px;
+$mobile-2: 375px;
+$mobile-3: 320px;
+
+@mixin responsive($break) {
+    @if $break == mobile-1 {
+        @media (max-width: $mobile-1) {
+            @content;
+        }
+    }
+    @if $break == mobile-2 {
+        @media (max-width: $mobile-2) {
+            @content;
+        }
+    }
+    @if $break == mobile-3 {
+        @media (max-width: $mobile-3) {
+            @content;
+        }
+    }
+}
+
+@import 'main';
