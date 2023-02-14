@@ -2,7 +2,7 @@ const button = document.querySelector('#random');
 const img = document.querySelector('#img');
 
 button.addEventListener('click', function(){
-    let random = Math.floor(Math.random() * 11 + 1);
+    let random = Math.floor(Math.random() * 25 + 1);
 //=========================================================================================
     console.log(random)
 //=========================================================================================
