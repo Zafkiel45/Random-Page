@@ -54,5 +54,61 @@ button.addEventListener('click', function(){
             img.src = 'image/Yelan-icon.jpg'
             res.innerHTML = `Yelan- Genshin Impact`
         break;
+        case 12:
+            img.src = 'image/2b.jpg'
+            res.innerHTML = `2B - Nier: Automata`
+        break;
+        case 13:
+            img.src = 'image/Akame.jpg'
+            res.innerHTML = `Akame - Akame ga Kill`
+        break;
+        case 14:
+            img.src = 'image/Astolfo.jpg'
+            res.innerHTML = `Astolfo - Fate Apocrypha`
+        break;
+        case 15:
+            img.src = 'image/esdeath.jpg'
+            res.innerHTML = `Esdeath - Akame Ga Kill`
+        break;
+        case 16:
+            img.src = 'image/haku.jpg'
+            res.innerHTML = `Haku - Naruto`
+        break;
+        case 17:
+            img.src = 'image/inori.jpg'
+            res.innerHTML = `Inori - Guilty Crown`
+        break;
+        case 18:
+            img.src = 'image/jeanne.jpg'
+            res.innerHTML = `Jeanne - Fate Apocrypha`
+        break;
+        case 19:
+            img.src = 'image/kurumi.jpg'
+            res.innerHTML = `Kurumi - Date a Live`
+        break;
+        case 20:
+            img.src = 'image/lena.jpg'
+            res.innerHTML = `Lena - 86`
+        break;
+        case 21:
+            img.src = 'image/Sakuraku.jpg'
+            res.innerHTML = `Sakuraku - Sakuraku-san`
+        break;
+        case 22:
+            img.src = 'image/shikimori.jpg'
+            res.innerHTML = `Shikimori - Kawaii Dake`
+        break;
+        case 23:
+            img.src = 'image/vivy.jpg'
+            res.innerHTML = `Vivy - Vivy: Fluorite Eye's Song`
+        break;
+        case 24:
+            img.src = 'image/Yukino.jpg'
+            res.innerHTML = `Yukino - Oreigairu`
+        break;
+        case 25:
+            img.src = 'image/zero-two.jpg'
+            res.innerHTML = `Zero Two - Darling in the fraxx`
+        break;
     }
 })
